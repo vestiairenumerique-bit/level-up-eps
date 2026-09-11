@@ -1,13 +1,13 @@
 {
-  "name": "LEVEL UP — EPS",
-  "short_name": "LEVEL UP",
+  "name": "LeVel Up — EP&S",
+  "short_name": "LeVel Up",
   "description": "Suis cinq habitudes saines et fais progresser ton niveau.",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f8fc",
-  "theme_color": "#15213d",
+  "background_color": "#063b68",
+  "theme_color": "#063b68",
   "icons": [
     {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
     {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}

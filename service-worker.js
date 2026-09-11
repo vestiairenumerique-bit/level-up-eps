@@ -1,5 +1,10 @@
-const CACHE_NAME = "level-up-eps-v2";
-const APP_FILES = ["./", "./index.html", "./manifest.webmanifest", "./logo-app.png", "./icon-192.png", "./icon-512.png"];
+const CACHE_NAME = "level-up-eps-v7";
+const CHARACTERS = ["nova", "maya", "leo", "lina"];
+const POSES = ["victory", "plank", "wall", "burpee", "pushup", "squat", "jumping", "knees", "hops", "balance", "stairs", "carry", "walk"];
+const APP_FILES = [
+  "./", "./index.html", "./manifest.webmanifest", "./logo-app.png", "./logo-wordmark.png", "./icon-192.png", "./icon-512.png",
+  ...CHARACTERS.flatMap(character => POSES.map(pose => `./assets/characters/${character}-${pose}.png`))
+];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)));
