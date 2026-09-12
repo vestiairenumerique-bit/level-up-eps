@@ -1,9 +1,10 @@
-const CACHE_NAME = "level-up-eps-v10";
-const CHARACTERS = ["nova", "maya", "leo", "lina", "player5", "player6"];
-const POSES = ["victory", "plank", "wall", "burpee", "pushup", "squat", "jumping", "knees", "hops", "balance", "stairs", "carry", "walk"];
+const CACHE_NAME = "level-up-eps-v12";
+const SPORTS = ["athletics", "dance", "swimming", "team", "combat", "neutral"];
+const NEUTRAL_STATES = ["idle", "plus-one", "encourage-2", "streak-3", "almost-4", "perfect-5", "level-up", "return", "jumping", "knees", "hops", "squat", "wall", "plank", "lunges", "burpee", "balance", "stairs", "walk", "carry"];
 const APP_FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./logo-app.png", "./logo-wordmark.png", "./icon-192.png", "./icon-512.png",
-  ...CHARACTERS.flatMap(character => POSES.map(pose => `./assets/characters/${character}-${pose}.png`))
+  ...SPORTS.map(sport => `./assets/sports/${sport}.png`),
+  ...NEUTRAL_STATES.map(state => `./assets/neutral-states/${state}.png`)
 ];
 
 self.addEventListener("install", event => {
