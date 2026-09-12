@@ -1,5 +1,5 @@
-const CACHE_NAME = "level-up-eps-v8";
-const CHARACTERS = ["nova", "maya", "leo", "lina"];
+const CACHE_NAME = "level-up-eps-v9";
+const CHARACTERS = ["nova", "maya", "leo", "lina", "player5", "player6"];
 const POSES = ["victory", "plank", "wall", "burpee", "pushup", "squat", "jumping", "knees", "hops", "balance", "stairs", "carry", "walk"];
 const APP_FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./logo-app.png", "./logo-wordmark.png", "./icon-192.png", "./icon-512.png",
