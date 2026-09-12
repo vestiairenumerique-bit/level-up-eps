@@ -1,4 +1,4 @@
-const CACHE_NAME = "level-up-eps-v9";
+const CACHE_NAME = "level-up-eps-v10";
 const CHARACTERS = ["nova", "maya", "leo", "lina", "player5", "player6"];
 const POSES = ["victory", "plank", "wall", "burpee", "pushup", "squat", "jumping", "knees", "hops", "balance", "stairs", "carry", "walk"];
 const APP_FILES = [
