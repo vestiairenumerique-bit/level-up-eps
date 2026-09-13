@@ -183,6 +183,6 @@
   migrateData();render=renderV2;applyStreakFreeze();render();
 })();
 </script>
-<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js"))}</script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js?v=15",{updateViaCache:"none"}).then(registration=>registration.update()))}</script>
 </body>
 </html>
