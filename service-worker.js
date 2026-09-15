@@ -1,4 +1,4 @@
-const CACHE_NAME = "level-up-eps-v16";
+const CACHE_NAME = "level-up-eps-v17";
 const DEMONSTRATIONS = ["jumping", "knees", "hops", "squat", "wall", "plank", "lunges", "burpee", "balance", "stairs", "walk", "carry"];
 const APP_FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./logo-app.png", "./logo-wordmark.png", "./icon-192.png", "./icon-512.png",
