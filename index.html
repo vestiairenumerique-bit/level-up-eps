@@ -101,7 +101,7 @@
 
   /* Écussons V21 : mêmes XP, nouvelle présentation. */
   #level-up-eps .badge-level-card{display:flex;align-items:center;justify-content:center;gap:22px;min-height:260px;margin:0 0 12px;padding:16px;border:2px solid #e5e5e5;border-radius:20px;background:#fff;color:#063b68;box-shadow:0 4px 0 #e1e1e1;position:relative}
-  #level-up-eps .badge-level-image{display:block;width:min(43%,200px);height:220px;object-fit:contain;mix-blend-mode:multiply;animation:badge-arrive .55s cubic-bezier(.2,.8,.3,1)}
+  #level-up-eps .badge-level-image{display:block;width:min(45%,240px);height:245px;object-fit:contain;mix-blend-mode:multiply;animation:badge-arrive .55s cubic-bezier(.2,.8,.3,1)}
   #level-up-eps .badge-level-copy{flex:1;min-width:0;text-align:left}
   #level-up-eps .badge-level-copy strong{display:block;font:900 clamp(16px,4vw,23px)/1.15 monospace}
   #level-up-eps .badge-level-copy span{display:block;margin-top:10px;font:800 13px monospace;color:#075a94}
@@ -121,7 +121,7 @@
   #level-up-eps .bag-reveal-modal .reward-stage-prize[src*="bag-open"]{display:none}
   @keyframes bottle-reveal{0%{opacity:0;transform:translate(-50%,50px) scale(.5)}70%{opacity:1;transform:translate(40%,-5px) scale(1.15)}100%{opacity:1;transform:translate(40%,1px) scale(1)}}
   @keyframes badge-arrive{from{opacity:.3;transform:scale(.88)}to{opacity:1;transform:scale(1)}}
-  @media(max-width:520px){#level-up-eps .badge-level-card{gap:8px;min-height:205px;padding:8px}#level-up-eps .badge-level-image{width:46%;height:185px}#level-up-eps .badge-level-copy strong{font-size:16px}#level-up-eps .badge-level-copy span{font-size:11px}#level-up-eps .reward-card-image{width:58px;height:68px}#level-up-eps .reward-bag{min-width:72px;padding:8px}}
+  @media(max-width:520px){#level-up-eps .badge-level-card{gap:8px;min-height:205px;padding:8px;overflow:visible}#level-up-eps .badge-level-image{width:45%;max-width:180px;height:170px}#level-up-eps .badge-level-copy strong{font-size:16px}#level-up-eps .badge-level-copy span{font-size:11px}#level-up-eps .reward-card-image{width:58px;height:68px}#level-up-eps .reward-bag{min-width:72px;padding:8px}}
   @media(prefers-reduced-motion:reduce){#level-up-eps .badge-level-image,#level-up-eps .reward-stage-bag,#level-up-eps .reward-stage-prize{animation:none}#level-up-eps .reward-stage-prize{opacity:1;transform:translate(40%,1px)}}
 </style>
 <script>
@@ -253,6 +253,6 @@
   migrateData();render=renderV2;applyStreakFreeze();render();
 })();
 </script>
-<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js?v=21",{updateViaCache:"none"}).then(registration=>registration.update()))}</script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js?v=22",{updateViaCache:"none"}).then(registration=>registration.update()))}</script>
 </body>
 </html>
