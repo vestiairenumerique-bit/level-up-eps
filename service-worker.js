@@ -1,4 +1,4 @@
-const CACHE_NAME = "level-up-eps-v25";
+const CACHE_NAME = "level-up-eps-v26";
 const DEMONSTRATIONS = ["jumping", "knees", "hops", "squat", "wall", "plank", "lunges", "burpee", "balance", "stairs", "walk", "carry"];
 const BADGES = ["01-rookie","02-espoir","03-challenger","04-titulaire","05-pro","06-expert","07-leader","08-capitaine","09-champion","10-elite","11-icone","12-legende"].map(name => `./assets/badges-v23/${name}.webp`);
 const REWARDS = ["bag-closed","bag-open","bottle"].map(name => `./assets/rewards/${name}.webp`);
@@ -46,5 +46,15 @@ self.addEventListener("fetch", event => {
       caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
       return response;
     }).catch(() => caches.match("./index.html")))
+  );
+});
+
+self.addEventListener("notificationclick", event => {
+  event.notification.close();
+  event.waitUntil(
+    clients.matchAll({type: "window", includeUncontrolled: true}).then(windows => {
+      const existing = windows.find(client => "focus" in client);
+      return existing ? existing.focus() : clients.openWindow("./");
+    })
   );
 });
