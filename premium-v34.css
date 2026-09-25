@@ -18,61 +18,7 @@ body{padding-bottom:104px}
 .theme-choices{display:flex;gap:8px;flex-wrap:wrap}.theme-choice{border:2px solid #dde5e9;background:#fff;border-radius:14px;padding:10px 14px;color:var(--premium-ink);font-weight:800}.theme-choice.on{border-color:#ffc51b;background:#fff4c2}
 .premium-unlock{position:fixed;z-index:400;inset:0;background:#042d50da;display:grid;place-items:center;padding:24px}.premium-unlock-card{position:relative;text-align:center;width:min(100%,460px);background:#fff;border-radius:32px;padding:30px 24px;overflow:hidden;box-shadow:0 30px 80px #0007}.premium-unlock-card img{width:190px;height:190px;object-fit:contain}.premium-unlock-card h2{color:var(--premium-ink);font:900 34px/1 system-ui;margin:8px 0}.premium-unlock-card p{color:#657681}.premium-unlock-card button{width:100%;border:0;border-radius:18px;background:var(--premium-blue);color:#fff;padding:17px;font-weight:900}.premium-particle{position:absolute;width:10px;height:10px;background:#ffc51b;animation:premiumBurst 1.8s ease-out infinite}.premium-particle:nth-child(2n){background:#ed174c}.premium-particle:nth-child(3n){background:#40c8dd}@keyframes premiumBurst{0%{transform:translate(0,0) scale(0);opacity:1}100%{transform:translate(var(--x),var(--y)) rotate(360deg);opacity:0}}
 .premium-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;border:2px solid #dbe4e8;background:#fff;border-radius:18px;padding:16px;color:var(--premium-ink);font-weight:900;margin-top:10px}.premium-toggle[aria-pressed=true]{border-color:#0b659b;background:#eaf8fb}.premium-toggle-state{color:#0b659b}.premium-settings-note{color:#72818b;font:500 13px/1.4 system-ui}
-body.theme-night{background:#072e50}body.theme-night #app{background:#eef6fa}
-
-/* Ambiance Terrain V35 : décor sportif franc, sans modifier le contenu. */
-body.theme-terrain{
-  background:#177d43;
-  background-attachment:fixed;
-  position:relative;
-}
-body.theme-terrain:before,
-body.theme-terrain:after{
-  content:"";
-  position:fixed;
-  z-index:0;
-  left:0;
-  right:0;
-  pointer-events:none;
-}
-body.theme-terrain:before{
-  top:0;
-  height:58vh;
-  background:
-    linear-gradient(90deg,transparent calc(50% - 2px),rgba(255,255,255,.74) calc(50% - 2px),rgba(255,255,255,.74) calc(50% + 2px),transparent calc(50% + 2px)),
-    radial-gradient(circle at 50% 100%,transparent 0 76px,rgba(255,255,255,.7) 77px 81px,transparent 82px),
-    repeating-linear-gradient(90deg,rgba(255,255,255,.045) 0 72px,rgba(0,0,0,.035) 72px 144px),
-    linear-gradient(180deg,#238e4e,#116d39);
-  border-bottom:5px solid rgba(255,255,255,.75);
-  box-shadow:inset 0 -22px 40px #073b6730;
-}
-body.theme-terrain:after{
-  bottom:0;
-  height:44vh;
-  background:
-    repeating-linear-gradient(172deg,transparent 0 50px,rgba(255,255,255,.84) 51px 55px,transparent 56px 104px),
-    linear-gradient(180deg,#c64a39,#a92f2d 70%,#85252b);
-  box-shadow:inset 0 18px 32px #54201f52;
-}
-body.theme-terrain #app{
-  position:relative;
-  z-index:1;
-  background:linear-gradient(180deg,rgba(247,252,248,.88),rgba(255,249,244,.91));
-  box-shadow:0 0 45px #062f2555;
-  backdrop-filter:blur(2px);
-}
-body.theme-terrain .premium-head,
-body.theme-terrain .app-head{background:rgba(255,255,255,.72);border-radius:0 0 24px 24px}
-body.theme-terrain .premium-card,
-body.theme-terrain .daily,
-body.theme-terrain .move-card,
-body.theme-terrain .badge-level-card,
-body.theme-terrain .week-overview,
-body.theme-terrain .stats .stat-card{background:rgba(255,255,255,.93);box-shadow:0 8px 0 rgba(3,59,52,.17)}
-body.theme-terrain .premium-nav{background:rgba(255,255,255,.95);border-top:3px solid #16804a}
-body.theme-terrain .premium-nav button.on{background:#dff3d8;box-shadow:inset 0 0 0 2px #299253}
-body.theme-terrain .gear-hero{background:linear-gradient(135deg,rgba(218,245,205,.96),rgba(255,255,255,.96));border-color:#258b4d}
-body.theme-terrain .theme-choice.on{border-color:#258b4d;background:#e0f3da}
+body.theme-night{background:#072e50}body.theme-night #app{background:#eef6fa}body.theme-terrain{background:#e8f1e6}
 @media(max-width:620px){.season-grid{grid-template-columns:1fr}.gear-gallery-premium{grid-template-columns:repeat(3,1fr)}.report-stats{grid-template-columns:repeat(2,1fr)}.premium-card,.premium-hero{margin-left:14px;margin-right:14px;padding:19px}.premium-head{padding-left:18px;padding-right:18px}.habit-bar{grid-template-columns:98px 1fr 25px}.gear-hero img{width:92px;height:92px}}
 @media(max-width:390px){.gear-gallery-premium{grid-template-columns:repeat(2,1fr)}.achievement-grid,.set-grid{grid-template-columns:1fr}.premium-nav button{font-size:11px}.premium-nav button span{font-size:20px}}
 @media(prefers-reduced-motion:reduce){.premium-particle{animation:none}}
