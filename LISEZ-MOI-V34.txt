@@ -1,0 +1,33 @@
+LEVEL UP — VERSION 34 PREMIUM
+
+NOUVELLE EXPÉRIENCE
+- Navigation en trois rubriques : Aujourd’hui, Ma saison, Mon vestiaire.
+- L’écran Aujourd’hui, ses cinq habitudes et le défi quotidien chronométré sont conservés.
+- Parcours complet des 12 niveaux et des 12 blasons.
+- Bilan hebdomadaire et bilan de période sur un pentagone original de style jeu/RPG.
+- 16 réussites structurées et célébrations renforcées lors des nouveaux déblocages.
+- Défis événementiels sans point bonus et sans incidence sur les règles existantes.
+- Souvenirs de saison enregistrés uniquement sur l’appareil et dans les sauvegardes.
+
+VESTIAIRE PREMIUM
+- 24 objets virtuels répartis jusqu’à 850 XP.
+- 6 ensembles de 4 objets.
+- Choix d’un objet favori.
+- Ambiances du vestiaire débloquées par les ensembles.
+
+RÉGLAGES
+- Sons et vibrations activables séparément.
+- Sauvegarde et restauration conservées.
+- Objectif personnel conservé dans la liste prédéfinie.
+
+COMPATIBILITÉ
+- Les anciennes données, points, niveaux, séries, objectifs, validations et récompenses sont conservés.
+- La migration premium est additive et ne remet aucune progression à zéro.
+- Le cache hors connexion porte désormais la version level-up-eps-v34-premium.
+
+FICHIERS PRINCIPAUX
+- index.html
+- premium-v34.css
+- service-worker.js
+- assets/wardrobe-v34/ (12 nouvelles illustrations)
+
