@@ -1,4 +1,11 @@
-LEVEL UP — VERSION 34 PREMIUM
+LEVEL UP — VERSION 35 PREMIUM · AMBIANCE TERRAIN
+
+NOUVEAUTÉ V35
+- Ambiance Terrain entièrement renforcée.
+- Pelouse sportive et marquages dans la partie supérieure.
+- Piste d’athlétisme avec couloirs dans la partie inférieure.
+- Cartes translucides pour conserver une excellente lisibilité.
+- Aucun changement dans les points, les niveaux, la série ou les données.
 
 NOUVELLE EXPÉRIENCE
 - Navigation en trois rubriques : Aujourd’hui, Ma saison, Mon vestiaire.
@@ -30,4 +37,3 @@ FICHIERS PRINCIPAUX
 - premium-v34.css
 - service-worker.js
 - assets/wardrobe-v34/ (12 nouvelles illustrations)
-
