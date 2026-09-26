@@ -1,4 +1,10 @@
-LEVEL UP — VERSION 34 PREMIUM
+LEVEL UP — VERSION 36 PREMIUM FINALE
+
+AJUSTEMENT V36
+- Suppression complète du choix d’ambiance Classique, Terrain ou Nuit.
+- Retour automatique au fond original pour tous les utilisateurs.
+- Les 24 objets, les ensembles et l’objet favori sont conservés.
+- Aucun point, niveau, série ou historique n’est modifié.
 
 NOUVELLE EXPÉRIENCE
 - Navigation en trois rubriques : Aujourd’hui, Ma saison, Mon vestiaire.
@@ -30,4 +36,3 @@ FICHIERS PRINCIPAUX
 - premium-v34.css
 - service-worker.js
 - assets/wardrobe-v34/ (12 nouvelles illustrations)
-
