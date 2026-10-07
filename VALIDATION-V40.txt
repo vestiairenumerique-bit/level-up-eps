@@ -1,0 +1,22 @@
+LE VEL UP V40 — VALIDATION
+
+Contrôles automatisés effectués :
+- Syntaxe de tous les scripts.
+- Douze blasons avec transparence extérieure (vérification alpha) ; chemins cache cohérents.
+- Signaux uniques aux seuils 10/3/2/1, fin et transitions repos/effort.
+- Volume nul et sons désactivés ; aucun plantage avec Web Audio absent.
+- Vibrations désactivées : aucune sollicitation.
+- Durées MEP, démarrage, historique, non-doublement du point mouvement et arrêt protégé.
+- Libellés du pentagone dans les limites du viewBox.
+
+Les tests utilisent une simulation des commandes et API. Ils ne certifient pas le rendu ni la qualité sonore sur un appareil physique.
+
+À effectuer avant publication / présentation :
+1. Tester accueil, Ma saison et blasons à 320/360/390 px, fond clair et sombre.
+2. Désactiver Animations visuelles, puis activer Réduire les animations dans le système ; aura légère fixe dans les deux cas.
+3. Démarrer un défi et chaque activité MEP, écouter 10/3/2/1, fin, repos et reprise, pause puis reprendre.
+4. Tester sons minuteur indépendamment des sons de réussite, volume 0/50/100 %, vibrations activées/désactivées sur appareil compatible.
+5. Sauvegarder puis restaurer un profil de test ; vérifier XP, série, objectifs, objets, historique MEP et nouveaux réglages.
+6. Installer depuis Safari/Chrome via HTTPS et rouvrir l’app hors ligne après son premier chargement complet.
+
+Les alertes sonores/vibrations ne sont pas garanties quand l’écran est verrouillé ou le navigateur suspendu. La version n’est pas publiée automatiquement.

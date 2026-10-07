@@ -1,0 +1,25 @@
+#level-up-eps.presentation-today>.badge-level-card:not(.compact){background:transparent;border:0;box-shadow:none}
+#level-up-eps .badge-visual .badge-level-image{mix-blend-mode:normal;object-fit:contain;filter:none}
+#level-up-eps .badge-aura.aura-independent{display:block;position:absolute;inset:-8%;z-index:0;background:none!important;filter:none!important;animation:none!important;opacity:1!important;transform:none;pointer-events:none}
+#level-up-eps .halo{position:absolute;display:block;width:72%;height:72%;border-radius:50%;filter:blur(18px);opacity:var(--aura-intensity,.5);mix-blend-mode:normal;animation:halo-drift 11s ease-in-out infinite;transform:translate3d(0,0,0)}
+#level-up-eps .halo-blue{left:-2%;top:11%;background:radial-gradient(circle,#168eeec9,transparent 70%)}#level-up-eps .halo-yellow{right:-2%;top:-3%;background:radial-gradient(circle,#fdc719e0,transparent 70%);animation-delay:-4s;animation-duration:13s}#level-up-eps .halo-red{right:10%;bottom:-4%;background:radial-gradient(circle,#e400469e,transparent 70%);animation-delay:-7s;animation-duration:15s}
+@keyframes halo-drift{0%,100%{transform:translate3d(-4%,-3%,0) scale(.97)}50%{transform:translate3d(6%,6%,0) scale(1.06)}}
+#level-up-eps .levelup-burst .halo{animation:halo-reward 2s ease-in-out 1}
+@keyframes halo-reward{0%,100%{transform:scale(1)}50%{transform:scale(1.16)}}
+#level-up-eps .collection-badge-visual{position:relative;display:grid;place-items:center;isolation:isolate;overflow:visible;background:none;flex:none;width:100px;height:104px}
+#level-up-eps .collection-badge-visual>img{position:relative;z-index:2;width:100%;height:100%;max-width:100%;object-fit:contain;background:none;box-shadow:none}
+#level-up-eps .collection-badge .collection-badge-visual{width:min(100%,150px);height:130px;margin:auto}
+#level-up-eps .collection-badge-visual .halo{filter:blur(9px)}#level-up-eps .locked .halo{display:none}
+#level-up-eps.visual-animations-off *,#level-up-eps.visual-animations-off *::before,#level-up-eps.visual-animations-off *::after{animation:none!important;transition:none!important}
+#level-up-eps.visual-animations-off .halo{opacity:.18;transform:none;will-change:auto}
+#level-up-eps .rpg-radar{width:100%;height:auto;max-height:none;overflow:visible;display:block}#level-up-eps .rpg-report{overflow:visible}#level-up-eps .rpg-label{font:700 19px Arial,sans-serif;fill:#063b68}
+#level-up-eps .timer-volume-label{display:flex;justify-content:space-between;gap:10px;margin:18px 0 10px;font-weight:700}#level-up-eps #timer-volume{width:100%;accent-color:#075a94;min-height:40px}
+@media(max-width:360px){#level-up-eps .rpg-report{padding:18px 10px}#level-up-eps .rpg-label{font-size:19px}}
+@media(prefers-reduced-motion:reduce){#level-up-eps *,#level-up-eps *::before,#level-up-eps *::after{animation:none!important;transition:none!important}#level-up-eps .halo{opacity:.18;transform:none;will-change:auto}}
+#level-up-eps.visual-animations-off .confetti,#level-up-eps.visual-animations-off .point-pop,#level-up-eps.visual-animations-off .bottle-sparks{display:none}
+@media(prefers-reduced-motion:reduce){#level-up-eps .confetti,#level-up-eps .point-pop,#level-up-eps .bottle-sparks{display:none}}
+#level-up-eps .collection-badge{background:transparent;box-shadow:none}#level-up-eps .season-level{background:transparent;box-shadow:none}#level-up-eps .season-level.current{background:transparent}
+#level-up-eps.visual-animations-off .reward-stage-prize{opacity:1;transform:translate(40%,1px)}#level-up-eps.visual-animations-off .bottle-appearance .reward-stage-prize{opacity:1;transform:translateX(-50%)}
+@media(prefers-reduced-motion:reduce){#level-up-eps .reward-stage-prize{opacity:1}#level-up-eps .bottle-appearance .reward-stage-prize{transform:translateX(-50%)}}
+#level-up-eps .badge-level-card.compact{background:transparent;border:0;box-shadow:none}#level-up-eps .collection-badge.current,#level-up-eps .collection-badge.locked{background:transparent;box-shadow:none}
+#level-up-eps.presentation-today>.badge-level-card:not(.compact) .badge-level-image{mix-blend-mode:normal;filter:none}

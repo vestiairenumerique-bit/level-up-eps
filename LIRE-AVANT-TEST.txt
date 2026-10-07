@@ -1,13 +1,11 @@
-LE VEL UP PREMIUM V39 — ACCUEIL ET MEP
+LE VEL UP PREMIUM V40
 
-Décompresser le ZIP avant utilisation. Pour un essai local, ouvrir index.html. Pour mettre à jour le dépôt existant, copier les fichiers à la racine sans modifier les chemins. Publication non effectuée par ce pack.
+Décompresser tout le ZIP puis ouvrir index.html pour un essai local. Ce pack ne publie rien automatiquement.
 
-Nouveautés : logo agrandi sur l’accueil, compteurs Niveau bleu et Série jaune, grand blason central avec aura bleu/jaune/rouge, progression XP sous le blason. Pas de réaction au toucher du blason.
+Nouveautés : douze blasons WebP transparents, trois halos CSS indépendants derrière les blasons, intensité progressive par niveau, option Animations visuelles et prise en compte de Réduire les animations, pentagone élargi avec cinq libellés entiers, signaux Web Audio des minuteurs MEP et défis. Sons du minuteur, volume et vibrations se règlent dans Paramètres.
 
-MEP : renforcement bleu, course jaune, corde rouge ; couleurs présentes dans les onglets, listes, minuteur et commandes. Objectifs renforcement regroupés en cartes. Chrono effort/récupération avec progression des étapes. Arrêter demande confirmation et met d’abord en pause.
+Les données et règles de points existantes sont conservées. Sauvegarder le profil depuis le site actuel avant toute mise à jour. Le test local ne partage pas les données avec le site publié.
 
-Programme conservé : renforcement 13/17/21 min, 18 séances de course, 7 formats de corde, historique et un point maximum de mouvement par jour. Profil et clés de sauvegarde inchangés.
+Pour mettre à jour le dépôt : copier les fichiers de ce pack à la racine en conservant les chemins, y compris les nouveaux scripts/styles et les douze blasons du dossier assets/badges-v23.
 
-Vérifié : syntaxe JavaScript, durées, paliers, démarrage, enregistrement, absence de double point, confirmation d’arrêt, retour et abandon. Fichiers nécessaires au cache présents.
-
-Limite : le navigateur de test n’est pas disponible dans cet environnement. Le rendu réel sur téléphone et ordinateur doit être contrôlé avant la présentation WBE. Tester à minima l’accueil, les trois rubriques MEP, pause/reprise/passer, une fiche et la sauvegarde. Une ouverture locale ne reprend pas les données du site publié.
+Consulter VALIDATION-V40.txt pour les contrôles effectués et les essais physiques restant à réaliser avant publication. Des aperçus des douze blasons sur fonds clair et sombre sont inclus : BLASONS-CLAIR-SOMBRE.png. Aucune garantie sonore écran verrouillé ou navigateur suspendu.

@@ -1,11 +1,11 @@
-const CACHE_NAME = "level-up-eps-v39-presentation";
+const CACHE_NAME = "level-up-eps-v40-finition";
 const DEMONSTRATIONS = ["jumping", "knees", "hops", "squat", "wall", "plank", "lunges", "burpee", "balance", "stairs", "walk", "carry"];
 const BADGES = ["01-rookie","02-espoir","03-challenger","04-titulaire","05-pro","06-expert","07-leader","08-capitaine","09-champion","10-elite","11-icone","12-legende"].map(name => `./assets/badges-v23/${name}.webp`);
 const REWARDS = ["bag-closed","bag-open","bottle"].map(name => `./assets/rewards/${name}.webp`);
 const WARDROBE = ["serviette","corde","ballon","tapis","elastique","chronometre","halteres","medecine-ball","montre","tenue"].map(name => `./assets/wardrobe/${name}.webp`);
 const WARDROBE_V34 = ["lacets","brassard","chaussettes","casquette","chaussures","chasuble","cones","sac-a-dos","brassard-capitaine","medaille","fanion","coupe"].map(name => `./assets/wardrobe-v34/${name}.webp`);
 const APP_FILES = [
-  "./", "./index.html", "./premium-v34.css", "./mep.css", "./presentation-v39.css", "./mep-data.js", "./mep-endurance.js", "./assets/mep/A1.webp","./assets/mep/A2.webp","./assets/mep/A3.webp","./assets/mep/B1.webp","./assets/mep/B2.webp","./assets/mep/C1.webp","./assets/mep/C2.webp","./assets/mep/D1.webp","./assets/mep/D2.webp", "./manifest.webmanifest", "./logo-app.png", "./logo-wordmark.png", "./icon-192.png", "./icon-512.png",
+  "./", "./index.html", "./premium-v34.css", "./mep.css", "./presentation-v39.css", "./finition-v40.css", "./timer-signals.js", "./mep-data.js", "./mep-endurance.js", "./assets/mep/A1.webp","./assets/mep/A2.webp","./assets/mep/A3.webp","./assets/mep/B1.webp","./assets/mep/B2.webp","./assets/mep/C1.webp","./assets/mep/C2.webp","./assets/mep/D1.webp","./assets/mep/D2.webp", "./manifest.webmanifest", "./logo-app.png", "./logo-wordmark.png", "./icon-192.png", "./icon-512.png",
   ...BADGES, ...REWARDS, ...WARDROBE, ...WARDROBE_V34,
   ...DEMONSTRATIONS.map(state => `./assets/demonstrator/${state}.webp`),
   "./assets/demonstrator/burpee-v2.png",
