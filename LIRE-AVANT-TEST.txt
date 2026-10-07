@@ -1,17 +1,13 @@
-LE VEL UP PREMIUM — MEP COMPLET
+LE VEL UP PREMIUM V39 — ACCUEIL ET MEP
 
-Décompresser tout le ZIP puis ouvrir index.html dans le navigateur. Pour les élèves : copier les fichiers et dossiers à la racine du dépôt existant en conservant les chemins. Ce pack ne publie rien automatiquement.
+Décompresser le ZIP avant utilisation. Pour un essai local, ouvrir index.html. Pour mettre à jour le dépôt existant, copier les fichiers à la racine sans modifier les chemins. Publication non effectuée par ce pack.
 
-Aujourd’hui > Bouger chaque jour > MEP, ou Ma saison > Mon programme MEP.
+Nouveautés : logo agrandi sur l’accueil, compteurs Niveau bleu et Série jaune, grand blason central avec aura bleu/jaune/rouge, progression XP sous le blason. Pas de réaction au toucher du blason.
 
-RENFORCEMENT : 9 fiches, 3 paliers, 2/3/4 tours, échauffement 3 min et retour au calme 2 min. Durées : 13/17/21 min.
-COURSE : 18 séances, 6 semaines de 3 séances ; alternances exactes du document. Échauffement 10 min et retour au calme 5 min conservés.
-CORDE : 7 formats du document ; 30/30 x10, 45/15 x10, 60/30 x8, 90/60 x5, 120/60 x5, 150/60 x4, 180/60 x4. Les durées incluent le dernier repos. Aucun échauffement supplémentaire inventé pour la corde.
+MEP : renforcement bleu, course jaune, corde rouge ; couleurs présentes dans les onglets, listes, minuteur et commandes. Objectifs renforcement regroupés en cartes. Chrono effort/récupération avec progression des étapes. Arrêter demande confirmation et met d’abord en pause.
 
-Pause, reprise, passage de phase et confirmation finale. Fermer met en pause ; reprendre depuis MEP. Une séance passée ne compte que si l’élève confirme l’avoir réalisée. Les séances réalisées restent consultables et peuvent être refaites. Les objectifs du renforcement sont des cibles, pas des résultats mesurés.
+Programme conservé : renforcement 13/17/21 min, 18 séances de course, 7 formats de corde, historique et un point maximum de mouvement par jour. Profil et clés de sauvegarde inchangés.
 
-Suivi conservé dans le profil et les sauvegardes existantes. Un seul point de mouvement par jour, même avec plusieurs activités. Les données dépendent du navigateur et de l’adresse du site. Les séances non confirmées ne sont pas sauvegardées après fermeture du navigateur.
+Vérifié : syntaxe JavaScript, durées, paliers, démarrage, enregistrement, absence de double point, confirmation d’arrêt, retour et abandon. Fichiers nécessaires au cache présents.
 
-Animation bouteille et blasons standards conservés, sans animation au toucher. Aucun choix d’ambiance ni rappel ajouté.
-
-Contrôles : syntaxe JavaScript, 18 séances de course, 7 formats de corde, durées, paliers renforcement, démarrage, confirmation, historique et absence de double point. Le rendu sur téléphone et le comportement en arrière-plan restent à tester.
+Limite : le navigateur de test n’est pas disponible dans cet environnement. Le rendu réel sur téléphone et ordinateur doit être contrôlé avant la présentation WBE. Tester à minima l’accueil, les trois rubriques MEP, pause/reprise/passer, une fiche et la sauvegarde. Une ouverture locale ne reprend pas les données du site publié.
