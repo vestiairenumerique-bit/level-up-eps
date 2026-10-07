@@ -1,11 +1,17 @@
-LE VEL UP PREMIUM V40
+LE VEL UP PREMIUM V41 — CÉLÉBRATIONS
 
-Décompresser tout le ZIP puis ouvrir index.html pour un essai local. Ce pack ne publie rien automatiquement.
+Décompresser tout le ZIP puis ouvrir index.html pour un essai local. Aucune publication automatique.
 
-Nouveautés : douze blasons WebP transparents, trois halos CSS indépendants derrière les blasons, intensité progressive par niveau, option Animations visuelles et prise en compte de Réduire les animations, pentagone élargi avec cinq libellés entiers, signaux Web Audio des minuteurs MEP et défis. Sons du minuteur, volume et vibrations se règlent dans Paramètres.
+Trois réussites célébrées : défi confirmé, séance MEP confirmée et première validation du bilan de journée. La fin du chrono seule ne valide ni activité ni point. Animation finie en environ 3 secondes ; CONTINUER est utilisable tout de suite.
 
-Les données et règles de points existantes sont conservées. Sauvegarder le profil depuis le site actuel avant toute mise à jour. Le test local ne partage pas les données avec le site publié.
+MEP : renforcement bleu, course jaune, corde rouge. Grand blason transparent, aura et confettis tricolores, son de réussite et vibration selon les paramètres. Une séance déjà enregistrée ne déclenche pas une deuxième célébration. Retirer un défi ne déclenche pas de célébration. Les déblocages d’équipements/réussites éventuels sont différés après la célébration de séance ou journée.
 
-Pour mettre à jour le dépôt : copier les fichiers de ce pack à la racine en conservant les chemins, y compris les nouveaux scripts/styles et les douze blasons du dossier assets/badges-v23.
+Le bilan de période et son pentagone ont été retirés de Ma saison. Bilan hebdomadaire, niveaux, événements, réussites et souvenirs conservés.
 
-Consulter VALIDATION-V40.txt pour les contrôles effectués et les essais physiques restant à réaliser avant publication. Des aperçus des douze blasons sur fonds clair et sombre sont inclus : BLASONS-CLAIR-SOMBRE.png. Aucune garantie sonore écran verrouillé ou navigateur suspendu.
+Les points, XP et règles de série sont inchangés. Un seul point mouvement par jour, même avec plusieurs activités.
+
+Animations visuelles désactivées ou Réduire les animations : carte de réussite fixe, sans confettis. Les sons de réussite et les vibrations suivent leurs réglages séparés ; les sons de minuteur restent indépendants.
+
+Vérifications : syntaxe, programmes MEP, historique, pas de double point, une célébration par confirmation, aucun effet au retrait du défi, retrait du bilan de période et tests de signaux V40. Le rendu et les sons sur téléphone doivent encore être vérifiés avant publication.
+
+Pour mettre à jour le dépôt : remplacer les fichiers à la racine en conservant les chemins, y compris index.html, service-worker.js et celebrations-v41.css. Sauvegarder le profil depuis l’app avant mise à jour. Un test local ne reprend pas automatiquement les données du site.
