@@ -1,0 +1,20 @@
+LEVEL UP V43 — PROGRESSION AUTONOME MEP
+
+Répétitions : objectifs indépendants pour chaque mouvement. +1 facultatif ; conservation ou diminution dans Préparer ma séance. Planche : +1 seconde, pas +1 répétition.
+Pompes 5 → 10 par tour. Tractions autonomes 0 → 5 ; à zéro, la séance indique préparation/assistance selon le cours. Objectifs existants conservés.
+Plafonds initiaux : A1/A2/A3/B2/C1/C2 10 répétitions, B1 5, D1 20, D2 30 secondes. Les plafonds sont modifiables dans Préparer ma séance et ne constituent pas des exigences universelles.
+Passage proposé quand les plafonds des quatre mouvements choisis ont été enregistrés dans des séances confirmées OU après un mois calendaire depuis la première séance du palier. Basé sur la déclaration de réalisation de l'élève, pas une mesure automatique. Le mois n'est pas un nombre de séances.
+Pas de bascule automatique : rester, adapter les répétitions ou conserver les objectifs. Les paliers déjà accessibles dans les anciens profils restent accessibles.
+Durées conservées : 13/17/21 min. Course : 18 séances. Corde : 7 formats. XP, sons et célébrations conservés.
+Neuf illustrations retravaillées à partir du personnage original, optimisées en WebP (environ 368 Ko au total). Vérifier le visage et les postures en conditions de cours avant diffusion.
+
+MISE À JOUR
+Sauvegarder les données depuis les paramètres avant de mettre à jour.
+Le ZIP Mise-a-jour contient uniquement les 13 fichiers applicatifs modifiés + cette notice, pour une base V42. Extraire, conserver les dossiers et remplacer à la même URL dans le dépôt existant.
+Le ZIP Complet contient toute l'application, utilisable depuis une base antérieure. Ne pas téléverser le ZIP lui-même.
+Aucune publication automatique effectuée.
+
+VÉRIFICATIONS
+Tests de logique : migration anciens objectifs/paliers, plafonds après séance, mois calendaire avec fin de mois/année bissextile, objectif zéro aux tractions, durées.
+Tests d'interactions DOM : +1/diminution, accès palier suivant, transition et adaptation, enregistrement, célébration, historique conservé, 18 séances de course/7 formats corde.
+Syntaxe JavaScript et dépendances locales vérifiées. Pas de test visuel dans un navigateur réel : tester sur téléphone les rendus, minuteurs, sons, sauvegarde/restauration et illustrations avant publication.

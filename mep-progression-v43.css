@@ -1,0 +1,7 @@
+#level-up-eps .mep-autonomy{background:#f4f9fd;border-radius:22px;padding:16px;margin:22px 0}
+#level-up-eps .mep-rep-card{display:flex;align-items:center;gap:10px;background:white;border:1px solid #cfdeea;border-radius:16px;padding:14px;margin:10px 0}
+#level-up-eps .mep-rep-card>div{flex:1;min-width:0;display:grid;gap:6px}#level-up-eps .mep-rep-card b{font-size:15px}#level-up-eps .mep-rep-card small,#level-up-eps .mep-rep-card span{font:500 12px/1.4 system-ui;color:#526878}
+#level-up-eps .mep-rep-card button{flex:0 0 auto;font-size:13px!important;padding:8px!important}
+#level-up-eps .mep-next-gate{margin-top:18px;padding:16px;border:2px solid #0873b9;border-radius:16px;background:#eaf6ff}#level-up-eps .mep-next-gate small{display:block;font:500 12px/1.5 system-ui;margin-bottom:12px}
+#level-up-eps .mep-route-card:disabled,#level-up-eps .mep-rep-card button:disabled{opacity:.65;cursor:default}
+#level-up-eps .mep-ceilings{padding:16px;border:2px solid #dce5eb;border-radius:16px;margin:16px 0}#level-up-eps .mep-ceilings summary{font-weight:800;cursor:pointer}#level-up-eps .mep-ceilings label{font-size:14px}
