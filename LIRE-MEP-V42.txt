@@ -1,0 +1,15 @@
+LEVEL UP V42 — PARCOURS MEP
+
+Nouveau parcours visuel : renforcement bleu, course jaune, corde rouge.
+Préparer ma séance conserve les réglages du professeur. Tous les paliers et séances restent accessibles.
+Programmes, durées, minuteurs, bips et confirmation inchangés. Images réutilisées, aucun nouvel asset lourd.
+
+INSTALLATION
+Sauvegarder la progression depuis les paramètres avant une mise à jour.
+Remplacer les fichiers à la racine du dépôt existant, au même emplacement : ne pas créer une nouvelle URL si vous souhaitez retrouver les données locales.
+Ne pas téléverser le ZIP lui-même : extraire son contenu.
+
+VALIDATION
+Syntaxe JavaScript et fichiers locaux vérifiés. Données des programmes identiques à V41. Parcours : 3 paliers, 18 séances de course / 6 semaines, 7 formats de corde. Logique du minuteur et validation inchangée.
+Test automatisé du navigateur indisponible dans cet environnement. Vérifier sur téléphone : ouverture de MEP, les trois onglets, préparer une séance, fiches, démarrer, pause/reprise, passer une phase, arrêter, confirmer et célébration.
+Cette version est un pack à tester : elle n’a pas été publiée automatiquement.

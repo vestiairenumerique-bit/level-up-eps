@@ -1,0 +1,39 @@
+#level-up-eps .mep-modal{--mep-accent:#0873b9;--mep-soft:#eaf6ff;--mep-ink:#063b68;--mep-shadow:#064c80;font-family:system-ui,sans-serif;padding:26px 22px;background:#fff;isolation:isolate}
+#level-up-eps .mep-running{--mep-accent:#ffd035;--mep-soft:#fff8dc;--mep-ink:#493600;--mep-shadow:#bd8800}
+#level-up-eps .mep-rope{--mep-accent:#d51e4a;--mep-soft:#fff0f3;--mep-ink:#9b1032;--mep-shadow:#9b1032}
+#level-up-eps .mep-modal .mission-kicker{color:var(--mep-ink);font:800 11px/1.5 system-ui;letter-spacing:1.3px}
+#level-up-eps .mep-modal h2{font:900 clamp(24px,5vw,34px)/1.15 system-ui;margin:10px 0;color:#063b68}
+#level-up-eps .mep-modal h3{font:800 20px/1.3 system-ui;margin:22px 0 12px}
+#level-up-eps .mep-modal p{font:500 15px/1.55 system-ui}
+#level-up-eps .mep-tabs{padding-top:34px;gap:8px}
+#level-up-eps .mep-tabs button{border:2px solid #dce5eb!important;border-bottom-width:5px!important;border-radius:16px!important;font:800 12px/1.3 system-ui!important;box-shadow:none!important;background:#f5f8fb!important;color:#063b68!important;min-height:60px!important}
+#level-up-eps .mep-tabs [data-activity=strength]{border-color:#0873b9!important;background:#eaf6ff!important}
+#level-up-eps .mep-tabs [data-activity=running]{border-color:#d8a70b!important;background:#fff8dc!important}
+#level-up-eps .mep-tabs [data-activity=rope]{border-color:#d51e4a!important;background:#fff0f3!important}
+#level-up-eps .mep-tabs [aria-pressed=true]{transform:translateY(2px);border-bottom-width:3px!important}
+#level-up-eps .mep-tabs [data-activity=strength][aria-pressed=true]{background:#0873b9!important;color:white!important}
+#level-up-eps .mep-tabs [data-activity=running][aria-pressed=true]{background:#ffd035!important;color:#493600!important}
+#level-up-eps .mep-tabs [data-activity=rope][aria-pressed=true]{background:#d51e4a!important;color:white!important}
+#level-up-eps .mep-route-hero{display:flex;align-items:center;gap:8px;background:var(--mep-soft);border:2px solid var(--mep-accent);border-radius:24px;padding:20px 16px;margin:18px 0}
+#level-up-eps .mep-route-hero>div{flex:1;min-width:0}#level-up-eps .mep-route-hero h2{padding:0}#level-up-eps .mep-route-hero p{margin:8px 0 0;color:var(--mep-ink);font-weight:700}
+#level-up-eps .mep-route-hero img{width:32%;max-width:150px;object-fit:contain;filter:drop-shadow(0 10px 8px #063b6820)}
+#level-up-eps .mep-guidance{color:#536878}
+#level-up-eps .mep-ready-card{background:var(--mep-soft);border:2px solid var(--mep-accent);border-radius:24px;padding:20px;margin:18px 0;box-shadow:0 6px 0 #063b6812}
+#level-up-eps .mep-ready-card h3{margin:8px 0}#level-up-eps .mep-movement-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:20px 0}
+#level-up-eps .mep-movement-strip figure{margin:0;background:white;border-radius:14px;padding:8px 4px;text-align:center}#level-up-eps .mep-movement-strip img{width:100%;height:65px;object-fit:contain}#level-up-eps .mep-movement-strip figcaption{font:700 11px/1.3 system-ui;overflow-wrap:anywhere}
+#level-up-eps .mep-modal button.primary{background:var(--mep-accent)!important;color:white!important;border:2px solid var(--mep-shadow)!important;border-radius:16px!important;box-shadow:0 4px 0 var(--mep-shadow)!important;font:800 16px/1.3 system-ui;padding:14px 16px;cursor:pointer;width:100%}
+#level-up-eps .mep-running button.primary{color:#493600!important}
+#level-up-eps .mep-modal button.secondary{background:white!important;color:var(--mep-ink)!important;border:2px solid var(--mep-accent)!important;border-radius:16px!important;font:700 14px/1.3 system-ui;padding:12px;cursor:pointer;box-shadow:none!important}
+#level-up-eps .mep-ready-card>button{width:100%}
+#level-up-eps .mep-route{position:relative;display:grid;gap:15px;margin:20px 0;padding:0 0 0 8px}
+#level-up-eps .mep-route:before{content:'';position:absolute;left:38px;top:28px;bottom:30px;width:6px;background:var(--mep-soft);border:1px solid var(--mep-accent);border-radius:9px;z-index:-1}
+#level-up-eps .mep-route-card{display:flex;align-items:center;gap:12px;width:100%;padding:14px 12px;background:white;border:2px solid #dce5eb;border-bottom-width:5px;border-radius:20px;text-align:left;color:#063b68;cursor:pointer}
+#level-up-eps .mep-route-card.next{background:var(--mep-soft);border-color:var(--mep-accent)}#level-up-eps .mep-route-card.done{border-color:var(--mep-accent)}
+#level-up-eps .mep-route-node{flex:0 0 48px;height:48px;display:grid;place-items:center;background:var(--mep-soft);color:var(--mep-ink);border:2px solid var(--mep-accent);border-radius:50%;font:900 22px system-ui}
+#level-up-eps .mep-route-copy{display:grid;gap:5px;min-width:0;flex:1}#level-up-eps .mep-route-copy small{color:var(--mep-ink);font:800 9px system-ui;letter-spacing:.7px}#level-up-eps .mep-route-copy strong{font:800 16px/1.3 system-ui}#level-up-eps .mep-route-copy>span{font:500 13px system-ui;color:#536878}#level-up-eps .mep-route-arrow{font:800 28px system-ui;color:var(--mep-ink)}
+#level-up-eps .mep-week-label{background:white;margin:12px 0 0!important;padding:5px 0;color:var(--mep-ink)}
+#level-up-eps .mep-player-art{background:radial-gradient(ellipse,var(--mep-soft),transparent 75%);border-radius:24px;margin:10px 0}#level-up-eps .mep-player-art .mep-illustration{height:190px;margin:0}
+#level-up-eps .mep-timer-panel{background:var(--mep-soft)!important;border-color:var(--mep-accent)!important;border-radius:24px!important}#level-up-eps .mep-clock{font-size:clamp(48px,14vw,76px)!important;color:#063b68!important}#level-up-eps .mep-phase-label{color:var(--mep-ink)!important}#level-up-eps .mep-timeline i{background:var(--mep-accent)!important}
+#level-up-eps .mep-preview-art{display:block;width:150px;height:120px;object-fit:contain;margin:20px auto}
+#level-up-eps .mep-modal button:focus-visible{outline:3px solid #063b68;outline-offset:4px}
+@media(max-width:380px){#level-up-eps .mep-modal{padding:24px 13px}#level-up-eps .mep-route-hero{padding:16px 12px}#level-up-eps .mep-movement-strip{grid-template-columns:repeat(2,minmax(0,1fr))}#level-up-eps .mep-route-node{flex-basis:40px;height:40px}#level-up-eps .mep-route-copy strong{font-size:14px}}
