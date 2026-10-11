@@ -1,0 +1,12 @@
+LeVel Up — correction V44
+
+À appliquer sur la version V43 déjà installée.
+Décompressez le ZIP et remplacez les trois fichiers à la racine du dépôt GitHub :
+index.html, mep-progression-v43.css, service-worker.js.
+Conservez tous les autres fichiers et le même lien de l’application.
+
+Corrections : bloc +1 supprimé ; répétitions toujours modifiables via Préparer ma séance ; illustrations de séance agrandies et centrées ; progression et historique conservés.
+
+Tests d’interaction réussis : configuration, validation, animation de réussite, passage de palier, course et corde à sauter.
+Le rendu final reste à vérifier sur votre téléphone après actualisation.
+Avant la mise à jour, utilisez Sauvegarder mes données.
