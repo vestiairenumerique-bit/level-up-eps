@@ -1,0 +1,21 @@
+LeVel Up — mise à jour V45 : coaching MEP et planning
+
+À appliquer sur votre dépôt actuel (la version V44 fournie).
+1. Sauvegardez vos données dans les paramètres.
+2. Décompressez ce ZIP.
+3. Remplacez index.html et service-worker.js à la racine du dépôt.
+4. Ajoutez coaching-v45.css à la même racine.
+5. Conservez tous les autres fichiers, les dossiers assets et le même lien GitHub Pages.
+6. Après publication, fermez puis rouvrez l’app ; actualisez si l’ancienne version apparaît.
+
+Modifications :
+- Ma saison : planning de sept jours, sans option repos, semaines précédentes et suivantes accessibles.
+- Choix : défi, sport en club, EP&S, MEP renforcement, course et corde à sauter.
+- Aujourd’hui : activité prévue, sans validation automatique ; prochaine récompense après Mes habitudes.
+- MEP renforcement : rappel des réglages, puis garder ou augmenter (+1 répétition par tour, ou +1 seconde pour la planche). Plafonds respectés. Choix confirmé avant enregistrement.
+- Après chaque séance MEP confirmée : notion courte liée à l’activité, après l’animation de réussite.
+- Aucun écran de choix de date après la séance.
+- Les points, XP, règles de série (3 habitudes sur 5), illustrations, sons, sauvegardes et paliers sont conservés.
+
+Tests d’interaction réussis : planning, sauvegarde et rechargement, progression volontaire, bilan des trois activités MEP, point de mouvement unique, placement de la récompense. Références des fichiers vérifiées.
+Le rendu et les sons restent à vérifier sur téléphone.
