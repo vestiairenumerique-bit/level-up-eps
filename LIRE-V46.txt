@@ -1,0 +1,9 @@
+LeVel Up — V46 : accueil simplifié
+
+Sauvegardez vos données. Décompressez puis ajoutez les cinq fichiers à la racine du même dépôt GitHub. Remplacez index.html, service-worker.js et coaching-v45.css ; ajoutez home-v46.css. Conservez les autres fichiers, assets et le même lien.
+
+Accueil : Ma semaine (icônes, Organiser), Bouger aujourd’hui, Mes habitudes santé (4 coches), Prochaine récompense.
+Le planning quitte Ma saison. La carte Mouvement prévu est supprimée.
+Le mouvement garde son point. Séries à 3/5, journée parfaite à 5/5. Planifier ne valide aucune activité. Aucun jour de repos proposé.
+Coaching MEP garder/augmenter et notions conservés.
+Tests d’interaction réussis ; rendu à vérifier sur téléphone. Fermez puis rouvrez après publication.
