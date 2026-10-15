@@ -1,0 +1,7 @@
+LeVel Up — V49 : retour aux défis V46
+
+Sauvegardez vos données. Remplacez index.html, service-worker.js et quests-v47.css à la racine du même dépôt. Conservez tous les autres fichiers et assets. Fermez puis rouvrez l’application après publication.
+
+Les défis de V46 sont rétablis : choix d’intensité existant, illustrations, minuteurs et validation habituelle. Les combos et le panneau de quête sont retirés.
+Conservés : accueil V46, planning, quatre habitudes santé, récompense après les habitudes, coaching MEP garder/augmenter et notions, À propos et mise en garde, vestiaire sans ensembles. Les anciennes données de combos ne sont plus utilisées, sans effacer les points déjà acquis.
+Tests fonctionnels réussis ; rendu et sons à vérifier sur téléphone.
