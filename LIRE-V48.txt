@@ -1,0 +1,5 @@
+LeVel Up V48 — écran des défis corrigé
+Sauvegardez vos données puis remplacez index.html, quests-v47.css et service-worker.js à la racine de votre dépôt. Conservez tous les autres fichiers. Le nom quests-v47.css est volontairement conservé : son contenu est corrigé en V48. Fermez puis rouvrez l’app après publication et actualisez si nécessaire.
+
+Styles isolés du reste de l’application : fond bleu nuit, textes et coches contrastés. Pictogrammes homogènes remplaçant le mélange des personnages LeVel Up et MEP. Notification, contours lumineux, apparition et balayage lent, pulsation des pictogrammes. Réglage des animations et préférence système respectés.
+14 défis, missions, sauvegardes et point de mouvement conservés. Tests fonctionnels et couleurs calculées réussis. Animations et rendu final à vérifier sur téléphone.
