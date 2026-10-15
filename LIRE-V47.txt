@@ -1,0 +1,9 @@
+LeVel Up — V47 : défis du jour
+
+À appliquer sur V46. Sauvegardez vos données dans les réglages. Décompressez ce ZIP, remplacez index.html et service-worker.js à la racine, puis ajoutez quests-v47.css à la même racine. Conservez tous les autres fichiers et assets. Fermez et rouvrez l’app après publication.
+
+14 combos cardio + renforcement, même rotation pour tous, répétition exacte tous les 14 jours (ancrage 15 octobre 2026, calcul par date civile). Deux validations conservées dans la journée. Une confirmation finale donne un seul point de mouvement et la célébration habituelle ; aucune pénalité pour mission non terminée. Aucun niveau de difficulté automatique ni titre de niveau.
+Suppression des ensembles du vestiaire. Les 24 objets restent ; les deux réussites liées aux ensembles deviennent 6 et 18 objets débloqués, sans retirer les réussites déjà acquises.
+Réglages : À propos, objectif de littératie sportive et santé, mise en garde et retour aux réglages.
+Planning, habitudes, séries, MEP et sauvegardes conservés.
+Tests : rotation annuelle J+14, deux missions, point unique, sauvegarde partielle, célébration, vestiaire, À propos. Rendu final à vérifier sur téléphone.
