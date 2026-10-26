@@ -1,0 +1,35 @@
+/* V50 — effets décoratifs uniquement. Aucune dimension, disposition ou règle de jeu modifiée. */
+#level-up-eps .stat-card{box-shadow:inset 0 1px 0 #ffffff80,inset 0 -2px 0 #061a3614,0 5px 0 #dce5ec,0 10px 22px #075a9414!important}
+#level-up-eps .badge-visual{isolation:isolate}
+#level-up-eps .badge-visual::after{content:"";position:absolute;inset:8%;z-index:0;pointer-events:none;background:radial-gradient(circle at 14% 27%,#62cfff 0 1px,transparent 3px),radial-gradient(circle at 83% 22%,#ffdc4d 0 1px,transparent 3px),radial-gradient(circle at 87% 72%,#f77b97 0 1px,transparent 3px),radial-gradient(circle at 20% 77%,#8fdcff 0 1px,transparent 3px);opacity:.7;animation:lu-dust 6s ease-in-out infinite}
+#level-up-eps .badge-visual .badge-level-image{position:relative;z-index:1;filter:drop-shadow(0 9px 12px #063b6826)}
+#level-up-eps .halo-blue{background:radial-gradient(circle,#149efcc9,transparent 70%)!important}
+#level-up-eps .halo-yellow{background:radial-gradient(circle,#ffd53bcc,transparent 70%)!important}
+#level-up-eps .halo-red{background:radial-gradient(circle,#e4004677,transparent 70%)!important}
+#level-up-eps .badge-xp-track{box-shadow:inset 0 1px 3px #063b6812,0 1px 0 #ffffff}
+#level-up-eps .badge-xp-track>i,#level-up-eps .hero-progress>i{background-image:linear-gradient(105deg,#ffffff09,#ffffff70 48%,#ffffff06 70%)!important;box-shadow:0 0 10px #ffc92c40}
+#level-up-eps .home-week-day.today{box-shadow:inset 0 0 15px #ffd22b26,0 0 12px #ffd22b28}
+#level-up-eps .home-week-day.saved{box-shadow:inset 0 1px 0 #ffffff,0 0 10px #139ee817}
+#level-up-eps .home-movement{background-image:linear-gradient(130deg,#ffffff80,transparent 65%)!important;box-shadow:inset 0 1px 0 #ffffff,0 5px 0 #ddb411,0 8px 22px #f3bf221a!important}
+#level-up-eps .daily,#level-up-eps .week-overview{box-shadow:inset 0 1px 0 #ffffff,0 5px 0 #e4e9ec,0 10px 24px #063b6809!important}
+#level-up-eps .check.on{background-image:linear-gradient(135deg,#ffffff25,transparent 60%)!important;box-shadow:inset 0 1px 0 #ffffff30,0 4px 0 #063b68,0 0 13px #168ee92b!important}
+#level-up-eps .check:active{filter:brightness(1.12)}
+#level-up-eps .move-choice.on,#level-up-eps .primary{background-image:linear-gradient(130deg,#ffffff1c,transparent 60%);box-shadow:inset 0 1px 0 #ffffff45,0 4px 0 #063b68,0 6px 15px #075a9415}
+#level-up-eps .reward-card{box-shadow:inset 0 1px 0 #ffffff,0 5px 0 #dfb51c,0 0 20px #ffd63b24!important}
+#level-up-eps .reward-card-image{filter:drop-shadow(0 0 10px #ffcf4f70) drop-shadow(0 6px 5px #063b681c)}
+#level-up-eps .mep-route-hero{background-image:linear-gradient(125deg,#ffffff95,transparent 72%);box-shadow:inset 0 1px 0 #ffffff,0 6px 0 #063b680a,0 0 20px color-mix(in srgb,var(--mep-accent) 15%,transparent)}
+#level-up-eps .mep-route-hero img{filter:drop-shadow(0 8px 7px #063b6822) drop-shadow(0 0 12px color-mix(in srgb,var(--mep-accent) 24%,transparent))}
+#level-up-eps .mep-timer-panel{background-image:linear-gradient(135deg,#ffffff50,transparent 65%)!important;box-shadow:inset 0 1px 0 #ffffff,0 0 20px color-mix(in srgb,var(--mep-accent) 16%,transparent)}
+#level-up-eps .mep-clock{text-shadow:0 1px 0 #ffffff,0 0 12px color-mix(in srgb,var(--mep-accent) 18%,transparent)}
+#level-up-eps .mep-timeline i{box-shadow:0 0 8px color-mix(in srgb,var(--mep-accent) 30%,transparent)}
+#level-up-eps .gear-card.favorite{box-shadow:inset 0 1px 0 #ffffff,0 0 16px #ffd53a25}
+#level-up-eps .gear-card.unlocked img{filter:drop-shadow(0 6px 6px #063b6819)}
+#level-up-eps .premium-nav .on{box-shadow:inset 0 1px 0 #ffffff,0 0 14px #fdc71920}
+/* Éclat ponctuel sur une validation réelle, sans modifier les valeurs. */
+#level-up-eps .lu-check-flash{animation:lu-validate .55s ease-out 1}
+#level-up-eps .lu-progress-flash{animation:lu-progress .8s ease-out 1}
+@keyframes lu-dust{0%,100%{opacity:.35;transform:translateY(0)}50%{opacity:.8;transform:translateY(-5px)}}
+@keyframes lu-validate{0%{filter:brightness(1)}35%{filter:brightness(1.35);box-shadow:0 0 20px #31b8ff80}100%{filter:brightness(1)}}
+@keyframes lu-progress{40%{filter:brightness(1.15);box-shadow:0 0 16px #ffd34366}}
+@media(prefers-reduced-motion:reduce){#level-up-eps .badge-visual::after,#level-up-eps .lu-check-flash,#level-up-eps .lu-progress-flash{animation:none!important}}
+#level-up-eps.visual-animations-off .badge-visual::after,#level-up-eps.visual-animations-off .lu-check-flash,#level-up-eps.visual-animations-off .lu-progress-flash{animation:none!important}
