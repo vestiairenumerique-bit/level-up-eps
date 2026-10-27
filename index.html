@@ -13,8 +13,10 @@
 <link rel="stylesheet" href="./coaching-v45.css">
 <link rel="stylesheet" href="./home-v46.css">
 
+<style>#levelup-splash{position:fixed;inset:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;background:#fff}#levelup-splash img{display:block;width:min(58vw,260px);height:auto;object-fit:contain}</style>
 </head>
 <body class="app-body">
+<div id="levelup-splash" role="status" aria-label="Ouverture de LeVel Up"><img src="./logo-ouverture.png" alt="LeVel Up"></div><script>setTimeout(function(){document.getElementById("levelup-splash")?.remove()},1200)</script>
 <div id="level-up-eps"><div class="loading">Chargement…</div></div>
 <style>
   html,body{margin:0;padding:0;background:transparent}
@@ -534,7 +536,7 @@
   migrateData();profile.reminderEnabled=false;clearReminderTimer();ensurePremiumProfile();syncPremiumBaseline();save();render=renderV2;applyStreakFreeze();render();
 })();
 </script>
-<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js?v=52",{updateViaCache:"none"}).then(registration=>registration.update()))}</script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js?v=53",{updateViaCache:"none"}).then(registration=>registration.update()))}</script>
 <link rel="stylesheet" href="./electrique-fixe-v52.css">
 </body>
 </html>

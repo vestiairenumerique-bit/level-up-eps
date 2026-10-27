@@ -1,0 +1,5 @@
+LeVel Up — logo à l’ouverture
+
+Sauvegardez vos données. Décompressez et ajoutez index.html, service-worker.js et logo-ouverture.png à la racine du même dépôt. Conservez les autres fichiers et assets. Fermez puis rouvrez l’app après publication.
+
+Le logo apparaît sur fond blanc environ 1,2 seconde à chaque chargement, puis laisse place à l’app. Selon le téléphone, un éventuel écran de lancement du système peut apparaître avant celui-ci. Les XP et données ne sont pas modifiés.
